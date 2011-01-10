@@ -1,0 +1,66 @@
+<style type="text/css">
+/* GLOBAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Reset 1em to 10px */
+  font-size: 62.5%;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #404040;
+}
+strong { font-weight: bold; }
+em { font-style: italic; }
+strong em, em strong { font-weight: bold; font-style: italic; }
+a { outline: none; }
+.column .clear, .clear { display: block; height: 0px; overflow: hidden; clear: both; margin: 0; }
+
+/* BUILDING BLOCKS */
+
+#content { background: transparent url(../i/mini-playlist/bg-skyline.png) 50% top repeat-x; }
+/*#header { height: 111px; background: transparent url(../i/mini-playlist/bg-head.png) 50% top no-repeat; margin: 0 auto; width: 478px; }*/
+#body { width: 478px; margin: 0 auto; overflow: hidden; }
+
+/* HEADLINES & TEXT */
+
+/*h1 { width: 302px; height: 93px; text-indent: -9999px; background: transparent url(../i/mini-playlist/bg-logo.png) left 10px no-repeat; margin: 0; padding-top: 10px; }*/
+/*#in-browser h1 { height: 71px; background: transparent url(../i/mini-playlist/bg-logo.png) left 15px no-repeat; }*/
+
+/* LINKS */
+
+a { color: #999948; }
+a:hover { color: #999; }
+li.first a { color: #fcfc77; }
+li.first a:hover { color: #bbb; }
+
+ol.mini-playlist {
+  margin: 0;
+  list-style: none;
+}
+.mini-playlist {
+  padding: 10px;
+  margin-top: 15px;
+}
+li {
+  color: #999;
+  border-top: 1px solid #999;
+  padding-top: 8px;
+  margin-top: 8px;
+  font-size: 11px;
+  line-height: 14px;
+}
+li.first {
+  border-top: none;
+  padding-top: 20px;
+  margin-top: 0;
+/*  background: url(../i/mini-playlist/now-playing.png) left 2px no-repeat; */
+  color: #fff;
+}
+li strong { font-size: 1.1em; }
+
+</style>
+<ol class="mini-playlist">
+</ol>
